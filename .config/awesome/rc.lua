@@ -380,7 +380,7 @@ awful.rules.rules = {
 
 }
 -- Gaps between the windows
--- beautiful.useless_gap = 3
+beautiful.useless_gap = 3
 
 -- }}}
 
