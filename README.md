@@ -19,7 +19,7 @@ Fonts:
 Hermit, Monoid, JetBrains Mono Nerd Font, Oswald
 
 
-## One Line Install:
+### One Line Install:
 
 `sudo apt-get install awesome vim pavucontrol rofi xbindkeys compton feh libnotify-dev notification-daemon xfce4-notifyd`
 
