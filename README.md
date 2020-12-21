@@ -1,5 +1,6 @@
-# 2021-awesomewm-config
-My AwesomeWM rice, updated for 2021!
+# AwesomeWM Rice - Updated for 2021
+
+As 2021 rolls around, it's time to update my Linux machine. I also decided to redesign my window manager, and also use a new window manager. I will daily drive AwesomeWM from this point on - here are the files if you also want to configure yours like mine.
 
 Window Manager: AwesomeWM
 
