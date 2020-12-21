@@ -37,3 +37,7 @@ For items not found in the standard repositories (You may need to compile from s
 * i3lock: https://github.com/Raymo111/i3lock-color
 
 * Vim Extra: https://github.com/streamsniperrty/vim-config
+
+### Final Steps
+
+* Make sure to set `autostart.sh` in ~/.config/awesome, `launch.sh` in ~/.config/polybar, `volume.sh` in ~/.config/polybar/scripts, and `battery.sh` in ~/.config/polybar/scripts as executable. 
