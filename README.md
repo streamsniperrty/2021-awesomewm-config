@@ -2,7 +2,7 @@
 My AwesomeWM rice, updated for 2021!
 
 Fonts:
-Hermit, Monoid, Iosevka Nerd Font (subject to change), Oswald
+Hermit, Monoid, JetBrains Mono Nerd Font, Oswald
 
 Menu Application: Rofi
 
