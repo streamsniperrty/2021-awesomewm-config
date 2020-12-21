@@ -21,4 +21,8 @@ Hermit, Monoid, JetBrains Mono Nerd Font, Oswald
 
 What to Install:
 Menu: rofi
-Notifications: libnotify-dev notification-daemon xfce4-notifyd
+Notifications: compton feh libnotify-dev notification-daemon xfce4-notifyd
+
+For items not found in the standard repositories:
+Vim Extra: https://github.com/streamsniperrty/vim-config
+i3lock: https://github.com/Raymo111/i3lock-color
