@@ -20,8 +20,9 @@ Hermit, Monoid, JetBrains Mono Nerd Font, Oswald
 
 
 One Line Install:
-sudo apt-get install rofi xbindkeys compton feh libnotify-dev notification-daemon xfce4-notifyd
+`sudo apt-get install awesome vim pavucontrol rofi xbindkeys compton feh libnotify-dev notification-daemon xfce4-notifyd`
 
 For items not found in the standard repositories:
 Vim Extra: https://github.com/streamsniperrty/vim-config
 i3lock: https://github.com/Raymo111/i3lock-color
+alacritty: https://github.com/alacritty/alacritty
