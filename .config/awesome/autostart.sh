@@ -4,7 +4,7 @@
 # Set second monitor as primary monitor, change HDMI1 to your according output
 # xrandr --output eDP1 --off --output HDMI1 --mode 1600x900 &
 
-feh --bg-scale /home/labibmahmud/.config/wallpapers/BeautifulScenery.png &
+feh --bg-scale /home/labibmahmud/.config/wallpapers/BeautifulScenery.jpg &
 compton -f &
 $HOME/.config/polybar/launch.sh &
 xbindkeys &
