@@ -19,9 +19,8 @@ Fonts:
 Hermit, Monoid, JetBrains Mono Nerd Font, Oswald
 
 
-What to Install:
-Menu: rofi
-Notifications: compton feh libnotify-dev notification-daemon xfce4-notifyd
+One Line Install:
+sudo apt-get install rofi xbindkeys compton feh libnotify-dev notification-daemon xfce4-notifyd
 
 For items not found in the standard repositories:
 Vim Extra: https://github.com/streamsniperrty/vim-config
