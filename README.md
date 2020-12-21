@@ -8,6 +8,11 @@ Menu Application: Rofi
 
 Notifications: Xfce4 Notifications
 
+Window Manager: AwesomeWM
+
+Theme: Sweet
+Icons: Papirus
+
 What to Install:
 Menu: rofi
 Notifications: libnotify-dev notification-daemon xfce4-notifyd
