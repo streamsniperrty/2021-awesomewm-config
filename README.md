@@ -26,7 +26,7 @@ As 2021 rolls around, it's time to update my Linux machine. I also decided to re
 
 ### One Line Install:
 
-`sudo apt-get install awesome vim pavucontrol rofi xbindkeys compton feh libnotify-dev notification-daemon xfce4-notifyd network-manager blueman bluez git cmake make`
+`sudo apt-get install awesome vim pavucontrol rofi xbindkeys compton feh libnotify-dev notification-daemon xfce4-notifyd network-manager blueman bluez git build-essential`
 
 For items not found in the standard repositories (You may need to compile from source):
 
