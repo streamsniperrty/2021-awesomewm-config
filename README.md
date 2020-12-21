@@ -1,17 +1,23 @@
 # 2021-awesomewm-config
 My AwesomeWM rice, updated for 2021!
 
-Fonts:
-Hermit, Monoid, JetBrains Mono Nerd Font, Oswald
+Window Manager: AwesomeWM
+
+Terminal Emulator: Alacritty
+
+Text Editor: Vim
 
 Menu Application: Rofi
 
 Notifications: Xfce4 Notifications
 
-Window Manager: AwesomeWM
-
 Theme: Sweet
+
 Icons: Papirus
+
+Fonts:
+Hermit, Monoid, JetBrains Mono Nerd Font, Oswald
+
 
 What to Install:
 Menu: rofi
