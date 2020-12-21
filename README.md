@@ -6,3 +6,5 @@ Fonts:
 Hermit, Monoid, Iosevka Nerd Font (subject to change), Oswald
 
 Menu Application: Rofi
+
+Notifications: Xfce4 Notifications
