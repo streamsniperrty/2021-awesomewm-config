@@ -18,7 +18,7 @@ As 2021 rolls around, it's time to update my Linux machine. I also decided to re
 
 * Icons: Papirus
 
-* Fonts: Hermit, Monoid, JetBrains Mono Nerd Font, ![Oswald](https://fonts.google.com/specimen/Oswald)
+* Fonts: Hermit, Monoid, JetBrains Mono Nerd Font, [Oswald](https://fonts.google.com/specimen/Oswald)
 
 ### One Line Install:
 
