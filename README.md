@@ -8,6 +8,8 @@ As 2021 rolls around, it's time to update my Linux machine. I also decided to re
 
 * Window Manager: AwesomeWM
 
+* Panel: Polybar
+
 * Terminal Emulator: Alacritty
 
 * Text Editor: Vim
@@ -24,12 +26,14 @@ As 2021 rolls around, it's time to update my Linux machine. I also decided to re
 
 ### One Line Install:
 
-`sudo apt-get install awesome vim pavucontrol rofi xbindkeys compton feh libnotify-dev notification-daemon xfce4-notifyd`
+`sudo apt-get install awesome vim pavucontrol rofi xbindkeys compton feh libnotify-dev notification-daemon xfce4-notifyd network-manager blueman bluez git cmake make`
 
 For items not found in the standard repositories (You may need to compile from source):
 
-* Vim Extra: https://github.com/streamsniperrty/vim-config
+* Polybar https://github.com/polybar/polybar
+
+* alacritty: https://github.com/alacritty/alacritty
 
 * i3lock: https://github.com/Raymo111/i3lock-color
 
-* alacritty: https://github.com/alacritty/alacritty
+* Vim Extra: https://github.com/streamsniperrty/vim-config
