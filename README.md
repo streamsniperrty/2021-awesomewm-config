@@ -19,10 +19,11 @@ Fonts:
 Hermit, Monoid, JetBrains Mono Nerd Font, Oswald
 
 
-One Line Install:
+## One Line Install:
+
 `sudo apt-get install awesome vim pavucontrol rofi xbindkeys compton feh libnotify-dev notification-daemon xfce4-notifyd`
 
-For items not found in the standard repositories:
+For items not found in the standard repositories (You'll need to compile from source):
 
 * Vim Extra: https://github.com/streamsniperrty/vim-config
 
