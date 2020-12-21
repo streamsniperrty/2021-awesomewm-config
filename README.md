@@ -2,23 +2,23 @@
 
 As 2021 rolls around, it's time to update my Linux machine. I also decided to redesign my window manager, and also use a new window manager. I will daily drive AwesomeWM from this point on - here are the files if you also want to configure yours like mine.
 
-Window Manager: AwesomeWM
+### Main Apps
 
-Terminal Emulator: Alacritty
+* Window Manager: AwesomeWM
 
-Text Editor: Vim
+* Terminal Emulator: Alacritty
 
-Menu Application: Rofi
+* Text Editor: Vim
 
-Notifications: Xfce4 Notifications
+* Menu Application: Rofi
 
-Theme: Sweet
+* Notifications: Xfce4 Notifications
 
-Icons: Papirus
+* Theme: Sweet
 
-Fonts:
-Hermit, Monoid, JetBrains Mono Nerd Font, Oswald
+* Icons: Papirus
 
+* Fonts: Hermit, Monoid, JetBrains Mono Nerd Font, ![Oswald](https://fonts.google.com/specimen/Oswald)
 
 ### One Line Install:
 
