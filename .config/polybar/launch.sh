@@ -2,8 +2,8 @@ killall polybar &
 
 if type "xrandr"; then
 	for m in $(xrandr --query | grep " connected" | cut -d" " -f1); do
-		MONITOR=$m polybar -c /home/labibmahmud/.config/bar/config mybar -r &
+		MONITOR=$m polybar -c /home/labibmahmud/.config/polybarbar/config mybar -r &
 	done
 	else
-		polybar -c /home/labibmahmud/.config/bar/config mybar -r &
+		polybar -c /home/labibmahmud/.config/bar/polybar/config mybar -r &
 fi
