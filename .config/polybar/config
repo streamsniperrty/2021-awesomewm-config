@@ -1,0 +1,143 @@
+;==========================================================
+;
+;
+;   streamsniperrty's Polybar config
+;
+;
+;   ██████╗  ██████╗ ██╗  ██╗   ██╗██████╗  █████╗ ██████╗
+;   ██╔══██╗██╔═══██╗██║  ╚██╗ ██╔╝██╔══██╗██╔══██╗██╔══██╗
+;   ██████╔╝██║   ██║██║   ╚████╔╝ ██████╔╝███████║██████╔╝
+;   ██╔═══╝ ██║   ██║██║    ╚██╔╝  ██╔══██╗██╔══██║██╔══██╗
+;   ██║     ╚██████╔╝███████╗██║   ██████╔╝██║  ██║██║  ██║
+;   ╚═╝      ╚═════╝ ╚══════╝╚═╝   ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═╝
+;
+;
+;   To learn more about how to configure Polybar
+;   go to https://github.com/polybar/polybar
+;
+;
+;==========================================================
+
+;;; COLOR CONFIG ;;;
+
+[colors]
+background = #0b0d13
+foreground = #f8f8f2
+pink = #ff1fd2
+yellow = #f1fa8c
+black = #000000
+
+;;; BAR CONFIG ;;;
+
+[bar/mybar]
+monitor = ${env:MONITOR:}
+width = 100%
+height = 25
+fixed-center = false
+background = ${colors.background}
+bottom = false
+line-size = 2
+padding-left = 1
+padding-right = 1
+module-margin-left = 1
+module-margin-right = 1
+
+;;; FONT CONFIG ;;;
+
+font-0 = Hermit:pixelsize=10;2
+font-1 = JetBrainsMonoNerdFont:pixelsize=11;2
+
+;;; MODULES ;;;
+
+modules-left = menu power lock
+modules-right = bat vol datetime settings
+
+;;; MODULE CONFIGURATION ;;;
+
+[module/menu]
+type = custom/text
+content = " "
+click-left = "rofi -show run"
+content-foreground = ${colors.pink}
+
+[module/power]
+type = custom/text
+content = " "
+click-left = "killall awesome"
+content-foreground = ${colors.pink}
+
+[module/lock]
+type = custom/text
+content = " "
+click-left = "i3lock -i "~/.config/i3lock/1366x768.png" --indpos 70:700 --radius=50 --veriftext=" " --ringcolor=0c0d12 --insidecolor=0c0d12 --keyhlcolor=ff1fd2 --verifcolor=ff1fd2 --insidevercolor=0c0d12 --ringvercolor=00bbff --ringwrongcolor=ff0000 --bshlcolor=ff0000 --noinputtext=" " --greetertext="Locked" --greeter-font="Oswald" --greetercolor="000000" --greeterpos=178:712"
+content-foreground = ${colors.pink}
+
+[module/bat]
+type = custom/script
+exec = $HOME/.config/polybar/scripts/battery.sh
+interval = 5
+format-foreground = ${colors.pink}
+
+[module/vol]
+type = custom/script
+exec = $HOME/.config/polybar/scripts/volume.sh
+interval = 1
+format-foreground = ${colors.pink}
+
+[module/datetime]
+type = custom/script
+exec = date +"%a %d, %R"
+interval = 5
+format-foreground = ${colors.pink}
+
+[module/settings]
+type = custom/menu
+format-foreground = ${colors.pink}
+label-open = " "
+label-close = "X"
+label-separator = " | "
+menu-0-0 = ""
+menu-0-0-exec = "blueman-manager"
+menu-0-0-foreground = ${colors.pink}
+menu-0-1 = " "
+menu-0-1-exec = "alacritty -e nmtui"
+menu-0-1-foreground = ${colors.pink}
+menu-0-2 = " "
+menu-0-2-exec = "pavucontrol"
+menu-0-2-foreground = ${colors.pink}
+
+;;; END OF MODULE CONFIG ;;;
+
+[settings]
+screenchange-reload = true
+
+[global/wm]
+margin-top = 5
+margin-bottom = 5
+
+cursor-click = pointer
+cursor-scroll = ns-resize
+label-mode-padding = 2
+label-mode-foreground = #000
+label-mode-background = ${colors.primary}
+
+; focused = Active workspace on focused monitor
+label-focused = %index%
+label-focused-background = ${colors.background-alt}
+label-focused-underline= ${colors.primary}
+label-focused-padding = 2
+
+; unfocused = Inactive workspace on any monitor
+label-unfocused = %index%
+label-unfocused-padding = 2
+
+; visible = Active workspace on unfocused monitor
+label-visible = %index%
+label-visible-background = ${self.label-focused-background}
+label-visible-underline = ${self.label-focused-underline}
+label-visible-padding = ${self.label-focused-padding}
+
+; urgent = Workspace with urgency hint set
+label-urgent = %index%
+label-urgent-background = ${colors.alert}
+label-urgent-padding = 2
