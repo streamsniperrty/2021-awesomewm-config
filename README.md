@@ -2,6 +2,8 @@
 
 As 2021 rolls around, it's time to update my Linux machine. I also decided to redesign my window manager, and also use a new window manager. I will daily drive AwesomeWM from this point on - here are the files if you also want to configure yours like mine.
 
+![screenshots/mainDesktop.png](The desktop screenshot)
+
 ### Main Apps
 
 * Window Manager: AwesomeWM
