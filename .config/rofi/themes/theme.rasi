@@ -8,9 +8,9 @@
     background-color:           #0b0d13;
     border-color:               #ff1fd2;
     text-color:                 #cccccc;
-    height:                     25px;
-    font:                       "Hermit 9";
-    prompt-font:                "Hermit 9";
+    height:                     27px;
+    font:                       "Hermit 10";
+    prompt-font:                "Hermit 10";
     prompt-background:          #ff1fd2;
     prompt-foreground:          #f8f8f2;
     prompt-padding:             4px;
