@@ -40,4 +40,4 @@ For items not found in the standard repositories (You may need to compile from s
 
 ### Final Steps
 
-* Make sure to set `autostart.sh` in ~/.config/awesome, `launch.sh` in ~/.config/polybar, `volume.sh` in ~/.config/polybar/scripts, and `battery.sh` in ~/.config/polybar/scripts as executable. 
+* Make sure to set `autostart.sh` in ~/.config/awesome, `launch.sh` in `~/.config/polybar`, `volume.sh` in `~/.config/polybar/scripts`, and `battery.sh` in `~/.config/polybar/scripts` as executable. 
