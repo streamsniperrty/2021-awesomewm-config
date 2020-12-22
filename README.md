@@ -16,6 +16,8 @@ As 2021 rolls around, it's time to update my Linux machine. I also decided to re
 
 * Menu Application: Rofi
 
+* Compositor: Picom (jonaburg fork)
+
 * Notifications: Xfce4 Notifications
 
 * Theme: Sweet
@@ -26,7 +28,7 @@ As 2021 rolls around, it's time to update my Linux machine. I also decided to re
 
 ### One Line Install:
 
-`sudo apt-get install awesome vim pavucontrol rofi xbindkeys compton feh libnotify-dev notification-daemon xfce4-notifyd network-manager blueman bluez git build-essential`
+`sudo apt-get install awesome vim pavucontrol rofi xbindkeys feh libnotify-dev notification-daemon xfce4-notifyd network-manager blueman bluez git build-essential`
 
 For items not found in the standard repositories (You may need to compile from source):
 
@@ -34,10 +36,26 @@ For items not found in the standard repositories (You may need to compile from s
 
 * alacritty: https://github.com/alacritty/alacritty
 
+* Picom: https://github.com/jonaburg/picom
+
 * i3lock: https://github.com/Raymo111/i3lock-color
 
 * Vim Extra: https://github.com/streamsniperrty/vim-config
 
 ### Final Steps
+
+* Copy the config files for:
+  
+  * Awesome 
+  
+  * Polybar 
+  
+  * Alacritty
+  
+  * Picom
+  
+  * Rofi
+  
+  * Vim
 
 * Make sure to set `autostart.sh` in ~/.config/awesome, `launch.sh` in `~/.config/polybar`, `volume.sh` in `~/.config/polybar/scripts`, and `battery.sh` in `~/.config/polybar/scripts` as executable. 
