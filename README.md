@@ -61,3 +61,7 @@ For items not found in the standard repositories (You may need to compile from s
 * Make sure to copy the fonts into `~/.local/share/fonts`.
 
 * Make sure to set `autostart.sh` in ~/.config/awesome, `launch.sh` in `~/.config/polybar`, `volume.sh` in `~/.config/polybar/scripts`, and `battery.sh` in `~/.config/polybar/scripts` as executable. 
+
+### Bonus
+
+If you want to change the LightDM Greeter, go to https://wiki.archlinux.org/index.php/LightDM which will show you how to change the greeter. The greeter I recommend is the `lightdm-webkit2-greeter`.
