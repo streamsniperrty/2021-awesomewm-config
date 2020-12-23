@@ -5,8 +5,7 @@
 # xrandr --output eDP1 --off --output HDMI1 --mode 1600x900 &
 
 feh --bg-scale /home/labibmahmud/.config/wallpapers/BeautifulScenery.jpg &
-compton -f &
+picom --experimental-backend &
 $HOME/.config/polybar/launch.sh &
 xbindkeys &
 exec /usr/lib/x86_64-linux-gnu/xfce4/notifyd/xfce4-notifyd &
-~                                                               
