@@ -36,7 +36,7 @@ For items not found in the standard repositories (You may need to compile from s
 
 * Alacritty: https://github.com/alacritty/alacritty
 
-* Picom: https://github.com/jonaburg/picom
+* Picom: https://github.com/streamsniperrty/picom-config
 
 * i3lock: https://github.com/Raymo111/i3lock-color
 
