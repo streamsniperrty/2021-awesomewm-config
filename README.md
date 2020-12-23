@@ -34,7 +34,7 @@ For items not found in the standard repositories (You may need to compile from s
 
 * Polybar https://github.com/polybar/polybar
 
-* alacritty: https://github.com/alacritty/alacritty
+* Alacritty: https://github.com/alacritty/alacritty
 
 * Picom: https://github.com/jonaburg/picom
 
