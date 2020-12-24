@@ -19,23 +19,23 @@ font:
   # Normal (roman) font face
   normal:
     # Font family
-    family: Monoid Tight 
+    family: Monoid 
     style: Regular
 
   # Bold font face
   bold:
     # Font family
-    family: Monoid Tight
+    family: Monoid
     style: Bold
 
   # Italic font face
   italic:
-    family: Monoid Tight
+    family: Monoid
     style: Italic
   
   # Bold italic font face
   bold_italic:
-    family: Monoid Tight  
+    family: Monoid  
     style: Bold Italic
 
   # Point size
